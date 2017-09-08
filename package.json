@@ -1,0 +1,23 @@
+{
+  "name": "purescript-2017",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pulp test",
+    "init": "pulp init",
+    "install": "bower install",
+    "clean": "rm -rf bower_components",
+    "start": "pulp run",
+    "repl": "pulp repl",
+    "build": "pulp build; pulp browserify > build.js;prepack build.js > app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "1.8.0",
+    "prepack": "0.2.6",
+    "pulp": "11.0.2",
+    "purescript": "0.11.6"
+  }
+}
